@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net" modified="2023-04-14T10:59:53.601Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="Pb2MN0f0qaIuealDRHfy" version="21.1.7" type="github">
+  <diagram name="Page-1" id="QEiZHA-wxxGtasj-5cAy">
+    <mxGraphModel dx="838" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UimHO_enks29xSUcv0nc-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UimHO_enks29xSUcv0nc-1" target="UimHO_enks29xSUcv0nc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UimHO_enks29xSUcv0nc-1" value="Data from the research (fastq)&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="324" y="90" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UimHO_enks29xSUcv0nc-2" value="Trimming Part" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="357" y="200" width="114" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="UimHO_enks29xSUcv0nc-4" value="DNA Assembly&lt;br&gt;(PacBio)" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="270" y="340" width="114" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="UimHO_enks29xSUcv0nc-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UimHO_enks29xSUcv0nc-2" target="UimHO_enks29xSUcv0nc-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="260" as="sourcePoint" />
+            <mxPoint x="340" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UimHO_enks29xSUcv0nc-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.36;entryY=-0.018;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UimHO_enks29xSUcv0nc-2" target="UimHO_enks29xSUcv0nc-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="260" as="sourcePoint" />
+            <mxPoint x="470" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UimHO_enks29xSUcv0nc-8" value="Transcripts Assembly&lt;br&gt;(Trinity)" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="440" y="340" width="114" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="UimHO_enks29xSUcv0nc-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="UimHO_enks29xSUcv0nc-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="324" y="395" as="sourcePoint" />
+            <mxPoint x="350" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UimHO_enks29xSUcv0nc-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="UimHO_enks29xSUcv0nc-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="395" as="sourcePoint" />
+            <mxPoint x="480" y="510" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UimHO_enks29xSUcv0nc-11" value="Annotation" style="whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="357" y="500" width="114" height="55" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
